@@ -2,10 +2,11 @@
 
 A private-use GitHub Pages form for separately recording each parent’s weekly acknowledgement.
 
-## How this version sends the form
+## PDF and email delivery
 
-The form does not submit or store any data online. When the applicant clicks **Open completed email**, their default email application opens with the completed agreement in the message body.
+The form creates a structured PDF on the applicant’s device. It then prepares an email addressed to the recipient addresses entered in the form.
 
-The applicant enters a primary recipient and an optional copied recipient. They must review the generated email and click **Send** in their email application.
+- On devices that support file sharing, the PDF can be passed to the mail app as an attachment through the share sheet.
+- On all other browsers, the PDF downloads and the default email app opens with a prepared message. The applicant must attach the downloaded PDF and press Send.
 
-Because GitHub Pages is public, never include passwords or other sensitive private information in the form.
+The form does not submit or store any response online. Because GitHub Pages is public, never enter passwords or other sensitive private information.
