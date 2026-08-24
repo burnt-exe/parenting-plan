@@ -2,10 +2,10 @@
 
 A private-use GitHub Pages form for separately recording each parent’s weekly acknowledgement.
 
-## Activate Formspree
+## How this version sends the form
 
-1. Create one Formspree form and choose the recipient inbox.
-2. Open `formspree-config.js`.
-3. Set `formspreeFormId` to the public identifier after `/f/` in the Formspree URL.
+The form does not submit or store any data online. When the applicant clicks **Open completed email**, their default email application opens with the completed agreement in the message body.
 
-Do not add API keys, passwords, or other private credentials to this public repository. Formspree records submitted declarations but does not independently verify identity or act as an electronic-signature service.
+The applicant enters a primary recipient and an optional copied recipient. They must review the generated email and click **Send** in their email application.
+
+Because GitHub Pages is public, never include passwords or other sensitive private information in the form.
